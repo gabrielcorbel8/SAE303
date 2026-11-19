@@ -1,0 +1,16 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1512" height="288" viewBox="0 0 1512 288" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Image" clip-path="url(#clip0_0_7)">
+<g id="Base">
+<path d="M0 0H1512V288H0V0Z" fill="white"/>
+<mask id="stroke0_0_7" fill="white">
+<path d="M0 0H1512V288H0V0Z"/>
+</mask>
+<path d="M1512 0L1511.81 -0.982339L-0.187112 287.018L0 288L0.187112 288.982L1512.19 0.982339L1512 0ZM0 0L-0.187112 0.982339L1511.81 288.982L1512 288L1512.19 287.018L0.187112 -0.982339L0 0ZM0 0V-2H-2V0H0ZM1512 0H1514V-2H1512V0ZM1512 288V290H1514V288H1512ZM0 288H-2V290H0V288ZM0 0V2H1512V0V-2H0V0ZM1512 0H1510V288H1512H1514V0H1512ZM1512 288V286H0V288V290H1512V288ZM0 288H2V0H0H-2V288H0Z" fill="#38201A" mask="url(#stroke0_0_7)"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_7">
+<rect width="1512" height="288" fill="white"/>
+</clipPath>
+</defs>
+</svg>
