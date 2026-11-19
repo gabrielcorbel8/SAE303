@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>M2Droit — Accueil · Tous les masters</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 
   <!-- Feuilles de style -->
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
   <div class="site-wrapper">
 
@@ -38,7 +42,8 @@
     <main id="main-content">
       <!-- 2. Bannière Image d'illustration / Hero Section -->
       <section class="hero-section" aria-label="Illustration de présentation">
-        <img src="assets/hero-banner.svg" alt="Bannière d'illustration M2Droit" class="hero-image" width="1512" height="288">
+        <img src="assets/hero-banner.svg" alt="Bannière d'illustration M2Droit" class="hero-image" width="1512"
+          height="288">
       </section>
 
       <!-- 3. Section Recherche avec Bandeau de filtres -->
@@ -53,14 +58,8 @@
               <div class="filter-group">
                 <label for="filter-location" class="filter-label">Localisation</label>
                 <div class="filter-input-wrap">
-                  <input
-                    type="text"
-                    id="filter-location"
-                    name="location"
-                    class="filter-input"
-                    placeholder="Ex : Bordeaux...."
-                    autocomplete="off"
-                  >
+                  <input type="text" id="filter-location" name="location" class="filter-input"
+                    placeholder="Ex : Bordeaux...." autocomplete="off">
                 </div>
               </div>
 
@@ -98,7 +97,8 @@
 
               <button type="submit" id="btn-search" class="btn-search" aria-label="Lancer la recherche">
                 <span class="btn-search-text">Rechercher</span>
-                <img src="assets/icon-search.svg" alt="" class="btn-search-icon" width="22" height="22" aria-hidden="true">
+                <img src="assets/icon-search.svg" alt="" class="btn-search-icon" width="22" height="22"
+                  aria-hidden="true">
               </button>
             </div>
           </form>
@@ -111,217 +111,9 @@
           <h2 id="catalogue-heading" class="catalogue-title">Tous les masters</h2>
 
           <div class="masters-grid" id="masters-grid">
-            <!-- Carte 1 -->
-            <article class="master-card" data-id="1">
-              <div class="card-logo-container">
-                <img src="assets/card-placeholder.svg" alt="Emplacement logo Master 1" class="card-logo-img" width="334" height="138">
-              </div>
-              <div class="card-mention-secteur">
-                <div class="card-field">
-                  <span class="field-label">MENTION</span>
-                  <span class="field-value">Intitulé de la mention</span>
-                </div>
-                <div class="card-field">
-                  <span class="field-label">SECTEUR DISCIPLINAIRE</span>
-                  <span class="field-value">Nom du secteur disciplinaire</span>
-                </div>
-              </div>
-              <div class="card-localisation-box">
-                <div class="card-localisation-row">
-                  <div class="card-loc-field">
-                    <span class="field-label">ACADÉMIE</span>
-                    <span class="field-value">Nom de l’académie</span>
-                  </div>
-                  <div class="card-loc-field">
-                    <span class="field-label">VILLE</span>
-                    <span class="field-value">Nom de la ville</span>
-                  </div>
-                  <div class="card-loc-field">
-                    <span class="field-label">RÉGION</span>
-                    <span class="field-value">Nom de la région</span>
-                  </div>
-                </div>
-              </div>
-              <button type="button" class="btn-more">en savoir plus</button>
-            </article>
-
-            <!-- Carte 2 -->
-            <article class="master-card" data-id="2">
-              <div class="card-logo-container">
-                <img src="assets/card-placeholder.svg" alt="Emplacement logo Master 2" class="card-logo-img" width="334" height="138">
-              </div>
-              <div class="card-mention-secteur">
-                <div class="card-field">
-                  <span class="field-label">MENTION</span>
-                  <span class="field-value">Intitulé de la mention</span>
-                </div>
-                <div class="card-field">
-                  <span class="field-label">SECTEUR DISCIPLINAIRE</span>
-                  <span class="field-value">Nom du secteur disciplinaire</span>
-                </div>
-              </div>
-              <div class="card-localisation-box">
-                <div class="card-localisation-row">
-                  <div class="card-loc-field">
-                    <span class="field-label">ACADÉMIE</span>
-                    <span class="field-value">Nom de l’académie</span>
-                  </div>
-                  <div class="card-loc-field">
-                    <span class="field-label">VILLE</span>
-                    <span class="field-value">Nom de la ville</span>
-                  </div>
-                  <div class="card-loc-field">
-                    <span class="field-label">RÉGION</span>
-                    <span class="field-value">Nom de la région</span>
-                  </div>
-                </div>
-              </div>
-              <button type="button" class="btn-more">en savoir plus</button>
-            </article>
-
-            <!-- Carte 3 -->
-            <article class="master-card" data-id="3">
-              <div class="card-logo-container">
-                <img src="assets/card-placeholder.svg" alt="Emplacement logo Master 3" class="card-logo-img" width="334" height="138">
-              </div>
-              <div class="card-mention-secteur">
-                <div class="card-field">
-                  <span class="field-label">MENTION</span>
-                  <span class="field-value">Intitulé de la mention</span>
-                </div>
-                <div class="card-field">
-                  <span class="field-label">SECTEUR DISCIPLINAIRE</span>
-                  <span class="field-value">Nom du secteur disciplinaire</span>
-                </div>
-              </div>
-              <div class="card-localisation-box">
-                <div class="card-localisation-row">
-                  <div class="card-loc-field">
-                    <span class="field-label">ACADÉMIE</span>
-                    <span class="field-value">Nom de l’académie</span>
-                  </div>
-                  <div class="card-loc-field">
-                    <span class="field-label">VILLE</span>
-                    <span class="field-value">Nom de la ville</span>
-                  </div>
-                  <div class="card-loc-field">
-                    <span class="field-label">RÉGION</span>
-                    <span class="field-value">Nom de la région</span>
-                  </div>
-                </div>
-              </div>
-              <button type="button" class="btn-more">en savoir plus</button>
-            </article>
-
-            <!-- Carte 4 -->
-            <article class="master-card" data-id="4">
-              <div class="card-logo-container">
-                <img src="assets/card-placeholder.svg" alt="Emplacement logo Master 4" class="card-logo-img" width="334" height="138">
-              </div>
-              <div class="card-mention-secteur">
-                <div class="card-field">
-                  <span class="field-label">MENTION</span>
-                  <span class="field-value">Intitulé de la mention</span>
-                </div>
-                <div class="card-field">
-                  <span class="field-label">SECTEUR DISCIPLINAIRE</span>
-                  <span class="field-value">Nom du secteur disciplinaire</span>
-                </div>
-              </div>
-              <div class="card-localisation-box">
-                <div class="card-localisation-row">
-                  <div class="card-loc-field">
-                    <span class="field-label">ACADÉMIE</span>
-                    <span class="field-value">Nom de l’académie</span>
-                  </div>
-                  <div class="card-loc-field">
-                    <span class="field-label">VILLE</span>
-                    <span class="field-value">Nom de la ville</span>
-                  </div>
-                  <div class="card-loc-field">
-                    <span class="field-label">RÉGION</span>
-                    <span class="field-value">Nom de la région</span>
-                  </div>
-                </div>
-              </div>
-              <button type="button" class="btn-more">en savoir plus</button>
-            </article>
-
-            <!-- Carte 5 -->
-            <article class="master-card" data-id="5">
-              <div class="card-logo-container">
-                <img src="assets/card-placeholder.svg" alt="Emplacement logo Master 5" class="card-logo-img" width="334" height="138">
-              </div>
-              <div class="card-mention-secteur">
-                <div class="card-field">
-                  <span class="field-label">MENTION</span>
-                  <span class="field-value">Intitulé de la mention</span>
-                </div>
-                <div class="card-field">
-                  <span class="field-label">SECTEUR DISCIPLINAIRE</span>
-                  <span class="field-value">Nom du secteur disciplinaire</span>
-                </div>
-              </div>
-              <div class="card-localisation-box">
-                <div class="card-localisation-row">
-                  <div class="card-loc-field">
-                    <span class="field-label">ACADÉMIE</span>
-                    <span class="field-value">Nom de l’académie</span>
-                  </div>
-                  <div class="card-loc-field">
-                    <span class="field-label">VILLE</span>
-                    <span class="field-value">Nom de la ville</span>
-                  </div>
-                  <div class="card-loc-field">
-                    <span class="field-label">RÉGION</span>
-                    <span class="field-value">Nom de la région</span>
-                  </div>
-                </div>
-              </div>
-              <button type="button" class="btn-more">en savoir plus</button>
-            </article>
-
-            <!-- Carte 6 -->
-            <article class="master-card" data-id="6">
-              <div class="card-logo-container">
-                <img src="assets/card-placeholder.svg" alt="Emplacement logo Master 6" class="card-logo-img" width="334" height="138">
-              </div>
-              <div class="card-mention-secteur">
-                <div class="card-field">
-                  <span class="field-label">MENTION</span>
-                  <span class="field-value">Intitulé de la mention</span>
-                </div>
-                <div class="card-field">
-                  <span class="field-label">SECTEUR DISCIPLINAIRE</span>
-                  <span class="field-value">Nom du secteur disciplinaire</span>
-                </div>
-              </div>
-              <div class="card-localisation-box">
-                <div class="card-localisation-row">
-                  <div class="card-loc-field">
-                    <span class="field-label">ACADÉMIE</span>
-                    <span class="field-value">Nom de l’académie</span>
-                  </div>
-                  <div class="card-loc-field">
-                    <span class="field-label">VILLE</span>
-                    <span class="field-value">Nom de la ville</span>
-                  </div>
-                  <div class="card-loc-field">
-                    <span class="field-label">RÉGION</span>
-                    <span class="field-value">Nom de la région</span>
-                  </div>
-                </div>
-              </div>
-              <button type="button" class="btn-more">en savoir plus</button>
-            </article>
-
-            <!-- Message Aucun résultat -->
-            <div id="no-results" class="no-results">
-              <h3>Aucun Master ne correspond à votre recherche</h3>
-              <p>Essayez d'élargir vos critères ou de réinitialiser la recherche.</p>
-              <button type="button" class="btn-all-masters" onclick="document.getElementById('btn-all-masters').click();">
-                Réinitialiser les filtres
-              </button>
+            <!-- Rempli dynamiquement par main.js via l'API REST -->
+            <div id="loading-indicator" style="grid-column: 1 / -1; text-align: center; padding: 40px;">
+              <p style="color: #695a50; font-family: 'Inter', sans-serif;">Chargement des masters depuis l'API...</p>
             </div>
           </div>
         </div>
@@ -341,7 +133,8 @@
   <!-- Modal Détails du Master (En savoir plus) -->
   <div id="master-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
     <div class="modal-content">
-      <button type="button" id="modal-close-btn" class="modal-close-btn" aria-label="Fermer la fenêtre">&times;</button>
+      <button type="button" id="modal-close-btn" class="modal-close-btn"
+        aria-label="Fermer la fenêtre">&times;</button>
       <h3 id="modal-title" class="modal-title">Détails de la formation</h3>
       <div id="modal-body" class="modal-body">
         <!-- Rempli dynamiquement par JS -->
@@ -352,23 +145,36 @@
   <!-- Modal RGPD -->
   <div id="rgpd-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="rgpd-title">
     <div class="modal-content">
-      <button type="button" id="rgpd-close-btn" class="modal-close-btn" aria-label="Fermer la fenêtre">&times;</button>
+      <button type="button" id="rgpd-close-btn" class="modal-close-btn"
+        aria-label="Fermer la fenêtre">&times;</button>
       <h3 id="rgpd-title" class="modal-title">Protection des données (RGPD)</h3>
       <div class="modal-body">
         <p style="margin-bottom: 14px;">
-          Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, le portail <strong>M2Droit</strong> s'engage à garantir la confidentialité et la sécurité de vos données personnelles.
+          Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et
+          Libertés, le portail <strong>M2Droit</strong> s'engage à garantir la confidentialité et la sécurité de
+          vos données personnelles.
         </p>
         <p style="margin-bottom: 14px;">
-          <strong>Finalités du traitement :</strong> Les informations recueillies sur ce site ont pour seul but de faciliter la recherche et l'orientation des étudiants vers les formations de Master 2 en droit. Aucune donnée personnelle n'est commercialisée ni transmise à des tiers sans votre consentement explicite.
+          <strong>Finalités du traitement :</strong> Les informations recueillies sur ce site ont pour seul but de
+          faciliter la recherche et l'orientation des étudiants vers les formations de Master 2 en droit. Aucune
+          donnée personnelle n'est commercialisée ni transmise à des tiers sans votre consentement explicite.
         </p>
         <p style="margin-bottom: 14px;">
-          <strong>Vos droits :</strong> Vous disposez d'un droit d'accès, de rectification, de portabilité et de suppression de vos données personnelles en contactant le délégué à la protection des données (DPO) de la plateforme.
+          <strong>Vos droits :</strong> Vous disposez d'un droit d'accès, de rectification, de portabilité et de
+          suppression de vos données personnelles en contactant le délégué à la protection des données (DPO) de la
+          plateforme.
         </p>
       </div>
     </div>
   </div>
 
   <!-- Scripts -->
-  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+  <script src="scripts/storage.js"></script>
+  <script src="scripts/network.js"></script>
+  <script src="scripts/visDataPreprocessor.js"></script>
+  <script src="scripts/visualisations.js"></script>
+  <script src="scripts/main.js"></script>
 </body>
+
 </html>
